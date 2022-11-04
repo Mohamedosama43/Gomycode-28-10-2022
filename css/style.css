@@ -1,0 +1,72 @@
+!--------------------------! Body !--------------------------! body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  background: #fff;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  color: #767676;
+}
+a {
+  color: #ed5f5e;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.logo-css {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 5%;
+  justify-content: center;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 75%;
+  justify-content: end;
+  background-color: white;
+}
+
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 75%;
+  justify-content: start;
+}
+
+.projects-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+.projects-section {
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  justify-content: end;
+}
+
+.footer-message {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  justify-content: end;
+}
